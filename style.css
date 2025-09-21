@@ -1,0 +1,95 @@
+/* Reset and base styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #544eaf;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Sections */
+section {
+  padding: 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+section h3 {
+  color: #544eaf;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+h2 {
+  color: #544eaf;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.profile-pic {
+  width: auto;
+  height: 20vh;
+  border-radius: 50%;
+  display: flex;
+  margin: 1rem auto;
+}
+
+#Hero {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* Projects */
+article {
+  border: 3px solid #413b95;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+article img {
+  border: 3px solid #413b95;
+  border-radius: 8px;
+  max-width: 60%;
+  height: auto;
+  margin-bottom: 1rem;
+
+  justify-content: center;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #544eaf;
+  color: #fff;
+}
